@@ -62,6 +62,9 @@ const Register = () => {
             <div className="register__bottomB">
                 *5573#
             </div>
+            <Link to='/pin'>
+              Pin
+            </Link>
           </div>
 
         </div>
