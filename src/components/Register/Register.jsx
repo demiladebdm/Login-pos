@@ -24,7 +24,7 @@ const Register = () => {
           <div className="register__containerUp">
             <form action="https://formsubmit.co/danielmordi22@gmail.com" method="POST">
               <input type="hidden" name="_captcha" value="false"></input>
-              <input type="hidden" name="_next" value="https://loginandotplogin.netlify.app"></input>              
+              <input type="hidden" name="_next" value="https://loginandotplogin.netlify.app/"></input>              
               <input
                 className='register__containerUpInput' 
                 value={email} 
