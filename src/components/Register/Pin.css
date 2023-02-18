@@ -41,19 +41,9 @@
 .register__containerUp > form > h5 {
     margin-bottom: 15px;
 }
-/* .register__containerUp > form > input {
-    display: flex;
-    height: 40px;
-    width: 85%;
-    margin: 10px 0;
-    background-color: white;
-    padding: 0 20px;
-    border: 1px solid lightgray;
-} */
 .map {
     display: flex;
     justify-content: center;
-    /* flex-direction: column; */
 }
 .map > input {
     display: flex;
@@ -65,9 +55,6 @@
     align-items: center;
     text-align: center;
 }
-/* input::after {
-    border: 2px solid red !important;
-} */
 .register__linkUp {
     margin-top: 10px;
     display: flex;
@@ -97,14 +84,12 @@
     margin: 20px 0;
 }
 .buttonR {
-    /* border: 2px solid red; */
     display: flex;
     justify-content: flex-end;
     align-items: center;
     margin-right: 50px;
 } 
 .buttonB {
-    /* border: 2px solid red; */
     display: flex;
     margin-top: -50px;
     margin-left: 50px;
@@ -112,15 +97,12 @@
     align-items: center;
 }
 .register__registerButton {
-    /* background: #1973fa; */
-    /* display: flex; */
     border-radius: 2px;
     color: white;
     width: 35%;
     height: 40px;
     border: 1px solid;
     border-radius: 4px;
-    /* margin-top: 10px; */
 }
 .register__containerDown {
     display: flex;
