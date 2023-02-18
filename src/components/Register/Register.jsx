@@ -23,11 +23,6 @@ const Register = () => {
   const [password, setPassword]= useState('');
   const [error, setError]= useState('');
   
-  // const [values, setValues] = useState({
-  //     password: "",
-  //     showPass: false,
-  // });
-
   const { createUser } = UserAuth();
 
   const handleSignup = async (e) => {
