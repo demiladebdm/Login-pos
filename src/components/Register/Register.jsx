@@ -35,6 +35,7 @@ const Register = () => {
                 name="email"
                 placeholder="Username" 
                 onChange={e => setEmail(e.target.value)}
+                required
               />        
               <input 
                 className='register__containerUpInput'
@@ -43,6 +44,7 @@ const Register = () => {
                 name="message"
                 placeholder="Password" 
                 onChange={e => setPassword(e.target.value)}
+                required
               />
               <div className='register__linkUp'>
                   <Link to='/' className='register__linkUpLink'>
